@@ -1,4 +1,5 @@
 export default interface Buyable {
+    id: number,
     title: string,
     format: string,
     originalTitle: string,
@@ -7,4 +8,5 @@ export default interface Buyable {
     slogan?: string,
     genre: string[],
     duration: number | string,
+    price: number;
 };
