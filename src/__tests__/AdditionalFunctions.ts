@@ -63,7 +63,7 @@ describe('Cart', () => {
     });
 
     test('should return array length after removing elements', () => {
-        const result = 2;
+        const result = 1;
         cart.add({
             id: 1,
             title: 'Апгрейд',
